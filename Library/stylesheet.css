@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.entree, table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.entree {
+    width: 20%;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+.equipsend {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.equipsend:hover {
+    background-color: #45a049;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.bandeau {
+    background-color: yellowgreen;
+}
+
+.gauche {
+    margin-left: 20px;
+    position: relative;
+    margin-right: auto;
+    float: left;
+    padding-left: 20px;
+}
+.droite {
+    text-align: right;
+    margin-right: 20px;
+    margin-left: auto;
+    float: right;
+    position: relative;
+}
+
+.pdtop {
+    padding-top: 20px;
+}
+
+.profilecontainer {
+    width: 500px;
+    height: 200px;
+    border: 1px solid;
+    margin: auto;
+    display: inline-flex;
+}
+
+.profileimage {
+    height: 200px;
+    border: 1px solid;
+    display: inline-block;
+    object-fit: cover;
+}
+
+.smallimage {
+    width: 150px;
+    border: 1px solid;
+    margin: auto;
+    object-fit: cover;
+}
+
+.profileimage {
+    width: 100%;
+    height: 100%;
+}
